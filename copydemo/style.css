@@ -1,0 +1,47 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+#content{
+  overflow: auto;
+}
+#nav,#feature,#footer,#logo{
+  margin: 1%;
+}
+/*#logo{
+  float: left;
+  display: inline;
+}*/
+li{
+  display: inline;
+  padding: 0.5em;
+}
+
+#feature{
+  height: 15em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+
+}
+.column1,.column2,.column3{
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+
+}
+.column3{
+  margin-right: 0%;
+}
+#container{
+  height: 10em;
+  margin:1%;
+}
+#logo,#nav,#container,#footer{
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+.article{
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
